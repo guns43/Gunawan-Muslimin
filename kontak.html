@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Toko Skincare</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hubungi Kami</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="produk.html">Produk</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section style="padding: 20px; max-width: 600px; margin: auto;">
+      <h2>Formulir Kontak</h2>
+      <form onsubmit="alert('Pesan Anda telah dikirim!'); return false;">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" required></textarea><br><br>
+
+        <button type="submit">Kirim</button>
+      </form>
+
+      <h3>Kontak Langsung</h3>
+      <p>📞 WhatsApp: 0896-5485-7728</p>
+      <p>📧 Email: gugungunawan1056@gmail.com</p>
+      <p>📍 Alamat: Jl. Benda Timur VII, Pamulang, Tangerang Selatan</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Toko Skincare Cantik</p>
+  </footer>
+</body>
+</html>
